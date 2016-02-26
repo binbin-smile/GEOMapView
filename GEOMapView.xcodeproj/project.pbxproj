@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C2047871C8025E200C09841 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2047861C8025E200C09841 /* main.m */; };
+		0C20478A1C8025E200C09841 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2047891C8025E200C09841 /* AppDelegate.m */; };
+		0C20478D1C8025E200C09841 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C20478C1C8025E200C09841 /* ViewController.m */; };
+		0C2047901C8025E200C09841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C20478E1C8025E200C09841 /* Main.storyboard */; };
+		0C2047921C8025E200C09841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2047911C8025E200C09841 /* Assets.xcassets */; };
+		0C2047951C8025E200C09841 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2047931C8025E200C09841 /* LaunchScreen.storyboard */; };
+		0C2047B51C802AD600C09841 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2047B41C802AD600C09841 /* UIKit.framework */; };
+		0C2047B71C802ADD00C09841 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2047B61C802ADD00C09841 /* CoreGraphics.framework */; };
+		0C2047B91C802AE900C09841 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2047B81C802AE900C09841 /* Foundation.framework */; };
+		0C21D7561C80327600EEEF01 /* GlobalFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C21D7551C80327600EEEF01 /* GlobalFunction.m */; };
+		0C21D7671C8038E400EEEF01 /* china_geo.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C21D75D1C8038E400EEEF01 /* china_geo.json */; };
+		0C21D76A1C8038E400EEEF01 /* ZSCityCoordinate.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C21D7611C8038E400EEEF01 /* ZSCityCoordinate.json */; };
+		0C21D76B1C8038E400EEEF01 /* ZSProvinceCoordinate.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C21D7621C8038E400EEEF01 /* ZSProvinceCoordinate.json */; };
+		0C21D76C1C8038E400EEEF01 /* ZSProvinceIDBridge.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C21D7631C8038E400EEEF01 /* ZSProvinceIDBridge.json */; };
+		0CEB3B131C8030BC0024A0FF /* ZSBaseAddressInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB3B001C8030BC0024A0FF /* ZSBaseAddressInfo.m */; };
+		0CEB3B141C8030BC0024A0FF /* ZSProvinceGEOInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB3B021C8030BC0024A0FF /* ZSProvinceGEOInfo.m */; };
+		0CEB3B151C8030BC0024A0FF /* CALayer+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB3B051C8030BC0024A0FF /* CALayer+Category.m */; };
+		0CEB3B161C8030BC0024A0FF /* UIFont+FontCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB3B071C8030BC0024A0FF /* UIFont+FontCategory.m */; };
+		0CEB3B181C8030BC0024A0FF /* ZSBaseMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB3B0D1C8030BC0024A0FF /* ZSBaseMapView.m */; };
+		0CEB3B1A1C8030BC0024A0FF /* ZSMapShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB3B111C8030BC0024A0FF /* ZSMapShapeLayer.m */; };
+		0CEB3B1E1C8030EB0024A0FF /* ZSGEOParserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB3B1D1C8030EB0024A0FF /* ZSGEOParserManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C2047821C8025E200C09841 /* GEOMapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GEOMapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2047861C8025E200C09841 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C2047881C8025E200C09841 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C2047891C8025E200C09841 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C20478B1C8025E200C09841 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C20478C1C8025E200C09841 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C20478F1C8025E200C09841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C2047911C8025E200C09841 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C2047941C8025E200C09841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C2047961C8025E200C09841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C2047B31C8029C000C09841 /* GEOMapView_pre.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GEOMapView_pre.pch; sourceTree = "<group>"; };
+		0C2047B41C802AD600C09841 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0C2047B61C802ADD00C09841 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0C2047B81C802AE900C09841 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0C21D7541C80327600EEEF01 /* GlobalFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalFunction.h; sourceTree = "<group>"; };
+		0C21D7551C80327600EEEF01 /* GlobalFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalFunction.m; sourceTree = "<group>"; };
+		0C21D75D1C8038E400EEEF01 /* china_geo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = china_geo.json; sourceTree = "<group>"; };
+		0C21D7611C8038E400EEEF01 /* ZSCityCoordinate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ZSCityCoordinate.json; sourceTree = "<group>"; };
+		0C21D7621C8038E400EEEF01 /* ZSProvinceCoordinate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ZSProvinceCoordinate.json; sourceTree = "<group>"; };
+		0C21D7631C8038E400EEEF01 /* ZSProvinceIDBridge.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ZSProvinceIDBridge.json; sourceTree = "<group>"; };
+		0CEB3AFF1C8030BC0024A0FF /* ZSBaseAddressInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSBaseAddressInfo.h; sourceTree = "<group>"; };
+		0CEB3B001C8030BC0024A0FF /* ZSBaseAddressInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSBaseAddressInfo.m; sourceTree = "<group>"; };
+		0CEB3B011C8030BC0024A0FF /* ZSProvinceGEOInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSProvinceGEOInfo.h; sourceTree = "<group>"; };
+		0CEB3B021C8030BC0024A0FF /* ZSProvinceGEOInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSProvinceGEOInfo.m; sourceTree = "<group>"; };
+		0CEB3B041C8030BC0024A0FF /* CALayer+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Category.h"; sourceTree = "<group>"; };
+		0CEB3B051C8030BC0024A0FF /* CALayer+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Category.m"; sourceTree = "<group>"; };
+		0CEB3B061C8030BC0024A0FF /* UIFont+FontCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FontCategory.h"; sourceTree = "<group>"; };
+		0CEB3B071C8030BC0024A0FF /* UIFont+FontCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FontCategory.m"; sourceTree = "<group>"; };
+		0CEB3B0C1C8030BC0024A0FF /* ZSBaseMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSBaseMapView.h; sourceTree = "<group>"; };
+		0CEB3B0D1C8030BC0024A0FF /* ZSBaseMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSBaseMapView.m; sourceTree = "<group>"; };
+		0CEB3B101C8030BC0024A0FF /* ZSMapShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSMapShapeLayer.h; sourceTree = "<group>"; };
+		0CEB3B111C8030BC0024A0FF /* ZSMapShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSMapShapeLayer.m; sourceTree = "<group>"; };
+		0CEB3B1B1C8030EB0024A0FF /* ZSGeoDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSGeoDefine.h; sourceTree = "<group>"; };
+		0CEB3B1C1C8030EB0024A0FF /* ZSGEOParserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSGEOParserManager.h; sourceTree = "<group>"; };
+		0CEB3B1D1C8030EB0024A0FF /* ZSGEOParserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSGEOParserManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C20477F1C8025E200C09841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2047B91C802AE900C09841 /* Foundation.framework in Frameworks */,
+				0C2047B71C802ADD00C09841 /* CoreGraphics.framework in Frameworks */,
+				0C2047B51C802AD600C09841 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C2047791C8025E200C09841 = {
+			isa = PBXGroup;
+			children = (
+				0C2047B81C802AE900C09841 /* Foundation.framework */,
+				0C2047B61C802ADD00C09841 /* CoreGraphics.framework */,
+				0C2047B41C802AD600C09841 /* UIKit.framework */,
+				0C2047841C8025E200C09841 /* GEOMapView */,
+				0C2047831C8025E200C09841 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C2047831C8025E200C09841 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C2047821C8025E200C09841 /* GEOMapView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C2047841C8025E200C09841 /* GEOMapView */ = {
+			isa = PBXGroup;
+			children = (
+				0C2047BA1C802BE800C09841 /* ZSMapView */,
+				0C2047881C8025E200C09841 /* AppDelegate.h */,
+				0C2047891C8025E200C09841 /* AppDelegate.m */,
+				0C20478B1C8025E200C09841 /* ViewController.h */,
+				0C20478C1C8025E200C09841 /* ViewController.m */,
+				0C20478E1C8025E200C09841 /* Main.storyboard */,
+				0C21D7571C8038E400EEEF01 /* Resource */,
+				0C2047911C8025E200C09841 /* Assets.xcassets */,
+				0C2047931C8025E200C09841 /* LaunchScreen.storyboard */,
+				0C2047961C8025E200C09841 /* Info.plist */,
+				0C2047B31C8029C000C09841 /* GEOMapView_pre.pch */,
+				0C2047851C8025E200C09841 /* Supporting Files */,
+			);
+			path = GEOMapView;
+			sourceTree = "<group>";
+		};
+		0C2047851C8025E200C09841 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C2047861C8025E200C09841 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C2047BA1C802BE800C09841 /* ZSMapView */ = {
+			isa = PBXGroup;
+			children = (
+				0CEB3AFE1C8030BC0024A0FF /* Model */,
+				0CEB3B031C8030BC0024A0FF /* Util */,
+				0CEB3B0B1C8030BC0024A0FF /* View */,
+				0CEB3B121C8030BC0024A0FF /* ViewModel */,
+			);
+			path = ZSMapView;
+			sourceTree = "<group>";
+		};
+		0C21D7571C8038E400EEEF01 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0C21D75C1C8038E400EEEF01 /* Other */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0C21D75C1C8038E400EEEF01 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0C21D75D1C8038E400EEEF01 /* china_geo.json */,
+				0C21D7611C8038E400EEEF01 /* ZSCityCoordinate.json */,
+				0C21D7621C8038E400EEEF01 /* ZSProvinceCoordinate.json */,
+				0C21D7631C8038E400EEEF01 /* ZSProvinceIDBridge.json */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0CEB3AFE1C8030BC0024A0FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0CEB3AFF1C8030BC0024A0FF /* ZSBaseAddressInfo.h */,
+				0CEB3B001C8030BC0024A0FF /* ZSBaseAddressInfo.m */,
+				0CEB3B011C8030BC0024A0FF /* ZSProvinceGEOInfo.h */,
+				0CEB3B021C8030BC0024A0FF /* ZSProvinceGEOInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0CEB3B031C8030BC0024A0FF /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0C21D7541C80327600EEEF01 /* GlobalFunction.h */,
+				0C21D7551C80327600EEEF01 /* GlobalFunction.m */,
+				0CEB3B041C8030BC0024A0FF /* CALayer+Category.h */,
+				0CEB3B051C8030BC0024A0FF /* CALayer+Category.m */,
+				0CEB3B061C8030BC0024A0FF /* UIFont+FontCategory.h */,
+				0CEB3B071C8030BC0024A0FF /* UIFont+FontCategory.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		0CEB3B0B1C8030BC0024A0FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0CEB3B0C1C8030BC0024A0FF /* ZSBaseMapView.h */,
+				0CEB3B0D1C8030BC0024A0FF /* ZSBaseMapView.m */,
+				0CEB3B101C8030BC0024A0FF /* ZSMapShapeLayer.h */,
+				0CEB3B111C8030BC0024A0FF /* ZSMapShapeLayer.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0CEB3B121C8030BC0024A0FF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0CEB3B1B1C8030EB0024A0FF /* ZSGeoDefine.h */,
+				0CEB3B1C1C8030EB0024A0FF /* ZSGEOParserManager.h */,
+				0CEB3B1D1C8030EB0024A0FF /* ZSGEOParserManager.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C2047811C8025E200C09841 /* GEOMapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C2047991C8025E200C09841 /* Build configuration list for PBXNativeTarget "GEOMapView" */;
+			buildPhases = (
+				0C20477E1C8025E200C09841 /* Sources */,
+				0C20477F1C8025E200C09841 /* Frameworks */,
+				0C2047801C8025E200C09841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GEOMapView;
+			productName = GEOMapView;
+			productReference = 0C2047821C8025E200C09841 /* GEOMapView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C20477A1C8025E200C09841 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lyb;
+				TargetAttributes = {
+					0C2047811C8025E200C09841 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0C20477D1C8025E200C09841 /* Build configuration list for PBXProject "GEOMapView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C2047791C8025E200C09841;
+			productRefGroup = 0C2047831C8025E200C09841 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C2047811C8025E200C09841 /* GEOMapView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C2047801C8025E200C09841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C21D76C1C8038E400EEEF01 /* ZSProvinceIDBridge.json in Resources */,
+				0C2047951C8025E200C09841 /* LaunchScreen.storyboard in Resources */,
+				0C21D7671C8038E400EEEF01 /* china_geo.json in Resources */,
+				0C2047921C8025E200C09841 /* Assets.xcassets in Resources */,
+				0C21D76B1C8038E400EEEF01 /* ZSProvinceCoordinate.json in Resources */,
+				0C2047901C8025E200C09841 /* Main.storyboard in Resources */,
+				0C21D76A1C8038E400EEEF01 /* ZSCityCoordinate.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C20477E1C8025E200C09841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C21D7561C80327600EEEF01 /* GlobalFunction.m in Sources */,
+				0CEB3B131C8030BC0024A0FF /* ZSBaseAddressInfo.m in Sources */,
+				0CEB3B151C8030BC0024A0FF /* CALayer+Category.m in Sources */,
+				0CEB3B1E1C8030EB0024A0FF /* ZSGEOParserManager.m in Sources */,
+				0CEB3B1A1C8030BC0024A0FF /* ZSMapShapeLayer.m in Sources */,
+				0C20478D1C8025E200C09841 /* ViewController.m in Sources */,
+				0C20478A1C8025E200C09841 /* AppDelegate.m in Sources */,
+				0CEB3B141C8030BC0024A0FF /* ZSProvinceGEOInfo.m in Sources */,
+				0C2047871C8025E200C09841 /* main.m in Sources */,
+				0CEB3B181C8030BC0024A0FF /* ZSBaseMapView.m in Sources */,
+				0CEB3B161C8030BC0024A0FF /* UIFont+FontCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C20478E1C8025E200C09841 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C20478F1C8025E200C09841 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C2047931C8025E200C09841 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C2047941C8025E200C09841 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C2047971C8025E200C09841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu89;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/lyb/Documents/GitHub/GEOMapView/GEOMapView/GEOMapView_pre.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C2047981C8025E200C09841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu89;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/lyb/Documents/GitHub/GEOMapView/GEOMapView/GEOMapView_pre.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C20479A1C8025E200C09841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GEOMapView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaogang.GEOMapView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C20479B1C8025E200C09841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GEOMapView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaogang.GEOMapView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C20477D1C8025E200C09841 /* Build configuration list for PBXProject "GEOMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2047971C8025E200C09841 /* Debug */,
+				0C2047981C8025E200C09841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C2047991C8025E200C09841 /* Build configuration list for PBXNativeTarget "GEOMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C20479A1C8025E200C09841 /* Debug */,
+				0C20479B1C8025E200C09841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C20477A1C8025E200C09841 /* Project object */;
+}

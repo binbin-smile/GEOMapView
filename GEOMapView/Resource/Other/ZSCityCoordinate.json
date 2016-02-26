@@ -1,0 +1,128 @@
+{
+    "110100": {
+        "name":"北京",
+        "centerCoordinate":[116.482738,39.91588],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[112.961955,41.903814]
+    },
+    "120100": {
+        "name":"天津",
+        "centerCoordinate":[117.214031,39.090126],
+        "isNeedExtendLine":1,
+        "extendCoordinate":[117.932569,40.286099]
+    },
+    "130400": {
+        "name":"邯郸",
+        "centerCoordinate":[114.545808,36.9831222],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[109.970448,37.914754]
+    },
+    "210100": {
+        "name":"沈阳",
+        "centerCoordinate":[123.438973,41.811339],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[124.018731,43.064163]
+    },
+    "330100": {
+        "name":"杭州",
+        "centerCoordinate":[120.161693,30.280059],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[117.241874,30.021494]
+    },
+    "330200": {
+        "name":"宁波",
+        "centerCoordinate":[121.556686,29.880177],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[121.813355,30.15308]
+    },
+    "340100": {
+        "name":"合肥",
+        "centerCoordinate":[117.235447,31.82687],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[113.099138,32.454593]
+    },
+    "420100": {
+        "name":"武汉",
+        "centerCoordinate":[114.311831,30.598428],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[111.306199,30.298195]
+    },
+    "440100": {
+        "name":"广州",
+        "centerCoordinate":[113.270793,23.135308],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[113.968058,24.254696]
+    },
+    "440600": {
+        "name":"佛山",
+        "centerCoordinate":[113.128432,23.027707],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[108.899512,23.509055]
+    },
+    "310100": {
+        "name":"上海",
+        "centerCoordinate":[121.480237,31.236305],
+        "isNeedExtendLine":1,
+        "extendCoordinate":[122.21332,32.323523]
+    },
+    "320100": {
+        "name":"南京",
+        "centerCoordinate":[118.802891,32.064735],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[115.459353,34.386384]
+    },
+    "320200": {
+        "name":"无锡",
+        "centerCoordinate":[120.318954,31.496704],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[119.918786,34.078078]
+    },
+    "320400": {
+        "name":"常州",
+        "centerCoordinate":[119.980142,31.816791],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[0,0]
+    },
+    "410100": {
+        "name":"郑州",
+        "centerCoordinate":[113.631349,34.453488],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[109.571386,34.994725]
+    },
+    "410500": {
+        "name":"安阳",
+        "centerCoordinate":[114.3996,36.103649],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[114.783288,36.412793]
+    },
+    "510100": {
+        "name":"成都",
+        "centerCoordinate":[104.071216,30.576279],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[101.819296,32.172561]
+    },
+    "610100": {
+        "name":"西安",
+        "centerCoordinate":[108.946306,34.347436],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.721222,35.490701]
+    },
+    "500100": {
+        "name":"重庆",
+        "centerCoordinate":[107.357165,29.570997],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.832862,29.343061]
+    },
+    "350100": {
+        "name":"福州",
+        "centerCoordinate":[119.302938,26.080447],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[117.636372,25.937495]
+    },
+    "370100": {
+        "name":"济南",
+        "centerCoordinate":[117.024967,36.682785],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[117.685461,38.533686]
+    }
+}

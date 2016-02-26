@@ -1,0 +1,53 @@
+//
+//  GEOMapView_pre.pch
+//  GEOMapView
+//
+//  Created by lyb on 16/2/26.
+//  Copyright © 2016年 lyb. All rights reserved.
+//
+
+#ifndef GEOMapView_pre_pch
+#define GEOMapView_pre_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <CoreGraphics/CoreGraphics.h>
+
+#import "GlobalFunction.h"
+
+
+//iPhone5 ，iOS 7
+#define isIPHONE5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define isIPHONE6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define isIPHONE6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define IsiOS7Later ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
+#define IsiOS8Later ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+#define IsiOS9Later ([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0)
+
+//iPhone5以下设备
+#define PrIPHONE5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define PrIPAD ([[[UIDevice currentDevice] model] isEqualToString:@"iPad"]||[[[UIDevice currentDevice] model] isEqualToString:@"iPad Simulator"])
+
+//系统版本号
+#define kSystemVersion  [[UIDevice currentDevice].systemVersion doubleValue]
+
+/*
+ *获取物理屏幕参数
+ */
+#define kScreenHeight    [[UIScreen mainScreen] bounds].size.height
+#define kScreenWidth     [[UIScreen mainScreen] bounds].size.width
+#define kScreenBounds    [[UIScreen mainScreen] bounds]
+
+#define kNavigationHeight 64
+#define kTabBarHeight    (isIPHONE6Plus?64:49)
+
+
+
+#endif /* GEOMapView_pre_pch */

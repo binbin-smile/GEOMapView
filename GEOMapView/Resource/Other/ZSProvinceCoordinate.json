@@ -1,0 +1,218 @@
+{
+    "1": {
+        "name":"甘肃",
+        "centerCoordinate":[96.895366,40.052101],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[0,0]
+    },
+    "2": {
+        "name":"青海",
+        "centerCoordinate":[95.5914580000,35.8222250000],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "3": {
+        "name":"广西",
+        "centerCoordinate":[108.924274,23.552255],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "4": {
+        "name":"贵州",
+        "centerCoordinate":[106.7136930000,26.6042420000],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "5": {
+        "name":"重庆",
+        "centerCoordinate":[107.5467900000,29.7835360000],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "6": {
+        "name":"北京",
+        "centerCoordinate":[116.405699,41.506533],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[0,0]
+    },
+    "7": {
+        "name":"福建",
+        "centerCoordinate":[118.010253,26.0710050000],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "8": {
+        "name":"安徽",
+        "centerCoordinate":[117.202218,31.8673120000],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "9": {
+        "name":"广东",
+        "centerCoordinate":[113.3948180000,23.4080040000],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "10": {
+        "name":"西藏",
+        "centerCoordinate":[88.0691190000,31.9095870000],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "11": {
+        "name":"新疆",
+        "centerCoordinate":[85.810851,40.5237280000],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "12": {
+        "name":"海南",
+        "centerCoordinate":[109.743435,19.1315660000],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "13": {
+        "name":"宁夏",
+        "centerCoordinate":[106.146763,37.5177900000],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "14": {
+        "name":"陕西",
+        "centerCoordinate":[108.904058,34.4617770000],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "15": {
+        "name":"山西",
+        "centerCoordinate":[112.035154,37.520844],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[0,0]
+    },
+    "16": {
+        "name":"湖北",
+        "centerCoordinate":[112.410562,31.2093160000],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "17": {
+        "name":"湖南",
+        "centerCoordinate":[111.783091,28.2398480000],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "18": {
+        "name":"四川",
+        "centerCoordinate":[102.411968,30.975611],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "19": {
+        "name":"云南",
+        "centerCoordinate":[101.659979,24.655084],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "20": {
+        "name":"河北",
+        "centerCoordinate":[115.136215,39.087002],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "21": {
+        "name":"河南",
+        "centerCoordinate":[113.283978,34.138273],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "22": {
+        "name":"辽宁",
+        "centerCoordinate":[123.435847,41.841317],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "23": {
+        "name":"山东",
+        "centerCoordinate":[118.0051140000,36.416511],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "24": {
+        "name":"天津",
+        "centerCoordinate":[118.717696,38.968322],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[121.223492,38.923674]
+    },
+    "25": {
+        "name":"江西",
+        "centerCoordinate":[115.676082,27.7572580000],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "26": {
+        "name":"江苏",
+        "centerCoordinate":[119.757457,33.753878],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[0,0]
+    },
+    "27": {
+        "name":"上海",
+        "centerCoordinate":[121.623202,31.156056],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "28": {
+        "name":"浙江",
+        "centerCoordinate":[119.966978,29.2905640000],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "29": {
+        "name":"吉林",
+        "centerCoordinate":[126.556073,43.843512],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "30": {
+        "name":"内蒙古",
+        "centerCoordinate":[116.256042,44.466703],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "31": {
+        "name":"黑龙江",
+        "centerCoordinate":[128.356864,47.435747],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "32": {
+        "name":"香港",
+        "centerCoordinate":[114.209342,22.381318],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "33": {
+        "name":"澳门",
+        "centerCoordinate":[113.505646,22.198328],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "34": {
+        "name":"台湾",
+        "centerCoordinate":[120.988746,23.911438],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[104.35851932200904,37.40123159456249]
+    },
+    "35": {
+        "name":"朝鲜",
+        "centerCoordinate":[126.21045,39.51092],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[0,0]
+    },
+    "36": {
+        "name":"韩国",
+        "centerCoordinate":[127.967251,36.862242],
+        "isNeedExtendLine":0,
+        "extendCoordinate":[0,0]
+    }
+}
