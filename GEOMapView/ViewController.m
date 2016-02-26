@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "ZSBaseMapView.h"
+
 @interface ViewController ()
 
 @end
@@ -16,7 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    ZSBaseMapView *mapView = [[ZSBaseMapView alloc] initWithFrame:CGRectMake(10, 10, 300, 300)];
+    mapView.center = self.view.center;
+    [self.view addSubview:mapView];
+    
 }
 
 - (void)didReceiveMemoryWarning {
