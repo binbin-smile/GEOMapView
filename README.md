@@ -4,8 +4,8 @@ MapView with GEOJson
 
 ## 效果参考
 
-/Users/yibin/Documents/GitHub/GEOMapView/效果图@2x.png
+运行效果图：
+![Image text](/screenshots/效果图.png)
 
-GEOJson数据sample:
-
-/Users/yibin/Documents/GitHub/GEOMapView/GEOJson样例数据.png
+GEOJson源数据sample：
+![Image text](/screenshots/GEOJson样例数据.png)
