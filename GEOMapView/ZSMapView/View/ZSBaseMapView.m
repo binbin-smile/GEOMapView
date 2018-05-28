@@ -99,7 +99,7 @@
         return;
     }
     
-    selectedLayer.fillColor = [UIColor yellowColor].CGColor;
+    selectedLayer.fillColor = [UIColor greenColor].CGColor;
     if (_lastSeletedLayer) {
         _lastSeletedLayer.fillColor = _fillColor.CGColor;
     }

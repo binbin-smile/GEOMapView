@@ -10,7 +10,10 @@
 
 #import "ZSBaseMapView.h"
 
-@interface ViewController ()
+@interface ViewController () <ZSBaseMapViewDelegate>
+{
+    UILabel *_tipLabel;
+}
 
 @end
 
@@ -19,8 +22,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    _tipLabel = [[UILabel alloc] initWithFrame:CGRectMake(100, 60, 100, 50)];
+    [self.view addSubview:_tipLabel];
+    
     ZSBaseMapView *mapView = [[ZSBaseMapView alloc] initWithFrame:CGRectMake(10, 10, 300, 300)];
     mapView.center = self.view.center;
+    mapView.delegate = self;
     [self.view addSubview:mapView];
     
 }
@@ -28,6 +35,13 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - ZSBaseMapViewDelegate
+
+- (void)baseMapViewDidSelectProvince:(ZSProvinceGEOInfo *)provinceGEOInfo
+{
+    _tipLabel.text = provinceGEOInfo.name;
 }
 
 @end

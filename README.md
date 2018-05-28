@@ -5,7 +5,7 @@ MapView with GEOJson
 ## 效果参考
 
 运行效果图：
-![Image text](/screenshots/效果图.png)
+![Image text](/screenshots/map_rec.gif)
 
 GEOJson源数据sample：
 ![Image text](/screenshots/GEOJson样例数据.png)
