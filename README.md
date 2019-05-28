@@ -1,6 +1,6 @@
 # GEOMapView
 MapView with GEOJson
-用GEOJson数据，CAShapeLayer、UIBezierPath绘制的地图demo
+用GEOJson数据，CAShapeLayer、UIBezierPath绘制的地图,支持按省份点击
 
 ## 效果参考
 
